@@ -1,7 +1,7 @@
 Flask
 gunicorn
 numpy
-tensorflow==2.4.1
+tensorflow
 pickle
 os
-scikit-learn==0.24.1
+scikit-learn
