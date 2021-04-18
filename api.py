@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 import pickle
 import numpy as np
 
-upload_folder = "/home/jash/Desktop/JashWork/MedicalDiagnosis_Flask/static"
+upload_folder = "static"
 
 def predict(filepath):
     label_mapping = {"NORMAL":0,"COVID":1,"Viral Pneumonia":2}
